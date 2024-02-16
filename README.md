@@ -1,3 +1,3 @@
 # Test
 
-check https://aureliealbertmeom.github.io/test_catalog
+check https://aureliealbertmeom.github.io/test_catalog2
