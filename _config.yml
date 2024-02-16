@@ -1,2 +1,2 @@
 theme: jekyll-theme-slate
-exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md", "License.md"]
+exclude: ["README.md"]
