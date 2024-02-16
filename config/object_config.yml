@@ -1,0 +1,2013 @@
+"agent:contributor":
+  usage_note: "Use as the broadest possible role, i.e. when lacking specific information on an agent's role, or the role is unclear or unknown. If a more specific role is available, prefer that, e.g. editor, compiler, illustrator."
+  sample_value: "Smith, Joe S."
+  controlled_values: 
+    vocabularies: 
+      uri: 
+      authority:
+      sub-authority:
+    list:     
+  validations: 
+    cardinality:
+  facet: 
+    faceted: true
+    facet_group: "Creator"
+  search:
+    search_indexed:
+    search_group:
+  display:
+    display_label: "Contributor"   
+    display_group:
+    display_order:
+    display_suppressed:
+
+"agent:creator":
+  usage_note: "Can be used when lacking specific information on an agent's exact role in creating the resource."
+  sample_value: "Alphabet, Inc."
+  controlled_values: 
+    vocabularies: 
+      uri: 
+      authority:
+      sub-authority:
+    list:     
+  validations: 
+    cardinality:
+  facet: 
+    faceted: true
+    facet_group: "Creator"
+  search:
+    search_indexed:
+    search_group:
+  display:
+    display_label: "Creator"   
+    display_group:
+    display_order:
+    display_suppressed:
+
+"agent:publisher":
+  usage_note: "Used when the exact publishing entity is known, since these will become authorities"
+  sample_value:
+  controlled_values: 
+    vocabularies: 
+      uri: 
+      authority:
+      sub-authority:
+    list:     
+  validations: 
+    cardinality:
+  facet: 
+    faceted: true
+    facet_group: "Creator"
+  search:
+    search_indexed:
+    search_group:
+  display:
+    display_label:   
+    display_group:
+    display_order:
+    display_suppressed:
+
+"agent:[role]":
+  usage_note: "See Agent Types list for full valid list of roles"
+  sample_value: "Smith, Joe S."
+  controlled_values: 
+    vocabularies: 
+      uri: 
+      authority:
+      sub-authority:
+    list:    
+  validations: 
+    cardinality:
+  facet: 
+    faceted: true
+    facet_group: "Creator"
+  search:
+    search_indexed:
+    search_group:
+  display:
+    display_label: "[Role]"   
+    display_group:
+    display_order:
+    display_suppressed:
+
+"subject:spatial":
+  usage_note: "In general, LoC's label is close to our ideal label. But, the ideal format is the place followed in parentheses by its next highest division (so a state for a city in the US, a country or region for other cities)."
+  sample_value: "Jalisco (Mexico)"
+  controlled_values: 
+    vocabularies: 
+      uri: 
+      authority:
+      sub-authority:
+    list:     
+  validations: 
+    cardinality:
+  facet: 
+    faceted: true
+    facet_group: "Topic"
+  search:
+    search_indexed:
+    search_group:
+  display:
+    display_label:   
+    display_group:
+    display_order:
+    display_suppressed:
+
+"subject:temporal":
+  usage_note: "These can be geological time periods, or humanistic ones associated with e.g. artistic movements"
+  sample_value: "Pleistocene Era"
+  controlled_values: 
+    vocabularies: 
+      uri: 
+      authority:
+      sub-authority:
+    list:     
+  validations: 
+    cardinality:
+  facet: 
+    faceted: true
+    facet_group: "Topic"
+  search:
+    search_indexed:
+    search_group:
+  display:
+    display_label:   
+    display_group:
+    display_order:
+    display_suppressed:
+
+"date":
+  usage_note: "If you have a more specific date, use the more specific types, e.g. collection date, event date"
+  sample_value: "Wed Jul 14 00:00:00 GMT-08:00 1971"
+  controlled_values: 
+    vocabularies: 
+      uri: 
+      authority:
+      sub-authority:
+    list:     
+  validations: 
+    cardinality:
+  facet: 
+    faceted: false
+    facet_group:
+  search:
+    search_indexed:
+    search_group:
+  display:
+    display_label: "Date"   
+    display_group:
+    display_order:
+    display_suppressed:
+
+"date:created":
+  usage_note: "The date the resource was created"
+  sample_value:
+  controlled_values: 
+    vocabularies: 
+      uri: 
+      authority:
+      sub-authority:
+    list:     
+  validations: 
+    cardinality:
+  facet: 
+    faceted: false
+    facet_group:
+  search:
+    search_indexed:
+    search_group:
+  display:
+    display_label: "Creation Date"   
+    display_group:
+    display_order:
+    display_suppressed:
+
+"date:event":
+  usage_note: "Typically these dates are for objects representing a performance or other event"
+  sample_value: "Wed Apr 08 00:00:00 GMT-08:00 1908"
+  controlled_values: 
+    vocabularies: 
+      uri: 
+      authority:
+      sub-authority:
+    list:     
+  validations: 
+    cardinality:
+  facet: 
+    faceted: false
+    facet_group:
+  search:
+    search_indexed:
+    search_group:
+  display:
+    display_label: "Event Date"   
+    display_group:
+    display_order:
+    display_suppressed:
+
+"date:collection":
+  usage_note: "Can be used from an archival context to record when materials were collected, or when a researcher or other entity collected research materials or findings."
+  sample_value: "June 1, 2013 to July, 18 2013"
+  controlled_values: 
+    vocabularies: 
+      uri: 
+      authority:
+      sub-authority:
+    list:     
+  validations: 
+    cardinality:
+  facet: 
+    faceted: false
+    facet_group:
+  search:
+    search_indexed:
+    search_group:
+  display:
+    display_label: "Date Collected"   
+    display_group:
+    display_order:
+    display_suppressed:
+
+"date:copyrighted":
+  usage_note: "Used when the exact copyright date is crucial to the object's context"
+  sample_value: 1963
+  controlled_values: 
+    vocabularies: 
+      uri: 
+      authority:
+      sub-authority:
+    list:     
+  validations: 
+    cardinality:
+  facet: 
+    faceted: false
+    facet_group:
+  search:
+    search_indexed:
+    search_group:
+  display:
+    display_label:   
+    display_group:
+    display_order:
+    display_suppressed:
+
+"date:issue":
+  usage_note: "Primarily used for minting DOIs and to work with external services, but can also be used to indicate when the resource was issued"
+  sample_value: 2017
+  controlled_values: 
+    vocabularies: 
+      uri: 
+      authority:
+      sub-authority:
+    list:     
+  validations: 
+    cardinality:
+  facet: 
+    faceted: false
+    facet_group:
+  search:
+    search_indexed:
+    search_group:
+  display:
+    display_label: "Date Issued"   
+    display_group:
+    display_order:
+    display_suppressed:
+
+"note:description":
+  usage_note: "This note is more specialized than a general note. It gives the overall summary of the item, in a more detailed manner than the brief description"
+  sample_value: "A alteration by unnamed student(s) intended as a parody of De Saint Phalle's Sun God."
+  controlled_values: 
+    vocabularies: 
+      uri: 
+      authority:
+      sub-authority:
+    list:     
+  validations: 
+    cardinality:
+  facet: 
+    faceted: false
+    facet_group:
+  search:
+    search_indexed:
+    search_group:
+  display:
+    display_label: "Description"   
+    display_group:
+    display_order:
+    display_suppressed:
+
+"note:bibliographic citation":
+  usage_note: "Include sufficient bibliographic detail to identify the resource as unambiguously as possible."
+  sample_value: "[Title, Date]. Leo Szilard Papers. MSS 32. Special Collections & Archives, UC San Diego Library."
+  controlled_values: 
+    vocabularies: 
+      uri: 
+      authority:
+      sub-authority:
+    list:     
+  validations: 
+    cardinality:
+  facet: 
+    faceted: false
+    facet_group:
+  search:
+    search_indexed:
+    search_group:
+  display:
+    display_label:   
+    display_group:
+    display_order:
+    display_suppressed:
+
+"note:table of contents":
+  usage_note: "Mainly used in context of a book or physical music piece"
+  sample_value: "1. Beginnings 2. The Academic Plan 3. The 1966 Revision 4. Conclusion"
+  controlled_values: 
+    vocabularies: 
+      uri: 
+      authority:
+      sub-authority:
+    list:     
+  validations: 
+    cardinality:
+  facet: 
+    faceted: false
+    facet_group:
+  search:
+    search_indexed:
+    search_group:
+  display:
+    display_label:   
+    display_group:
+    display_order:
+    display_suppressed:
+
+"note:arrangement":
+  usage_note: "Intellectual arrangement or the original/archival resources"
+  sample_value: "Located in the series \"Correspondence\" in the Leo Szilard Papers, MSS 32."
+  controlled_values: 
+    vocabularies: 
+      uri: 
+      authority:
+      sub-authority:
+    list:     
+  validations: 
+    cardinality:
+  facet: 
+    faceted: false
+    facet_group:
+  search:
+    search_indexed:
+    search_group:
+  display:
+    display_label: "Arrangement"   
+    display_group:
+    display_order:
+    display_suppressed:
+
+"note:biography":
+  usage_note: "Use when a biographical note is important to understanding the resource or collection "
+  sample_value: "Edith Emerson (July 27, 1888 \u2013 November 21, 1981) was an American painter, muralist, illustrator, writer, and curator. She was the life partner of acclaimed muralist Violet Oakley and served as the vice-president, president, and curator of the Woodmere Art Museum in the Chestnut Hill neighborhood of Philadelphia, Pennsylvania, from 1940 to 1978."
+  controlled_values: 
+    vocabularies: 
+      uri: 
+      authority:
+      sub-authority:
+    list:     
+  validations: 
+    cardinality:
+  facet: 
+    faceted: false
+    facet_group:
+  search:
+    search_indexed:
+    search_group:
+  display:
+    display_label:   
+    display_group:
+    display_order:
+    display_suppressed:
+
+"brief description":
+  usage_note: "Only used in the context of collection level records (viewed when browsing the collection). Character limit is enforced"
+  sample_value: "Photographs and design drawings of the site-specific public sculptures in the UC San Diego Stuart Collection."
+  controlled_values: 
+    vocabularies: 
+      uri: 
+      authority:
+      sub-authority:
+    list:     
+  validations: 
+    cardinality:
+  facet: 
+    faceted: false
+    facet_group:
+  search:
+    search_indexed:
+    search_group:
+  display:
+    display_label:   
+    display_group: 
+      - "search_results"
+    display_order:
+    display_suppressed:
+
+"note:credits":
+  usage_note: "Only used when special recognition has been made in the source data, or when a data provider wishes to credit other entities. Not to be used to convey copyright-related information, or to record performers (that is recorded in note:performer)"
+  sample_value: "Roger Reynolds, Bryan Reynolds, Joshua Tonies, Nick Drashner, Andy Muehlhausen, Trevor Henthorn, Hunjoo Jung, Tracy Cornish"
+  controlled_values: 
+    vocabularies: 
+      uri: 
+      authority:
+      sub-authority:
+    list:     
+  validations: 
+    cardinality:
+  facet: 
+    faceted: false
+    facet_group:
+  search:
+    search_indexed:
+    search_group:
+  display:
+    display_label: "Credits"   
+    display_group:
+    display_order:
+    display_suppressed:
+
+"note:custodial history":
+  usage_note: "Only use when the provenance or chain of custody is necessary for grasping the context of the resource"
+  sample_value: "Originally owned by the British Museum"
+  controlled_values: 
+    vocabularies: 
+      uri: 
+      authority:
+      sub-authority:
+    list:     
+  validations: 
+    cardinality:
+  facet: 
+    faceted: false
+    facet_group:
+  search:
+    search_indexed:
+    search_group:
+  display:
+    display_label:   
+    display_group:
+    display_order:
+    display_suppressed:
+
+"note:edition":
+  usage_note: "Used primarily when the edition information is transcribed on the object"
+  sample_value: "ICPSR ed., OSIRIS IV version."
+  controlled_values: 
+    vocabularies: 
+      uri: 
+      authority:
+      sub-authority:
+    list:     
+  validations: 
+    cardinality:
+  facet: 
+    faceted: false
+    facet_group:
+  search:
+    search_indexed:
+    search_group:
+  display:
+    display_label:   
+    display_group:
+    display_order:
+    display_suppressed:
+
+"note:material details:finds":
+  usage_note: "This will normally be taken from a data provider or researcher who is noting aspects of the physical thing that the resource represents"
+  sample_value: "Some slag. No ceramics."
+  controlled_values: 
+    vocabularies: 
+      uri: 
+      authority:
+      sub-authority:
+    list:     
+  validations: 
+    cardinality:
+  facet: 
+    faceted: false
+    facet_group:
+  search:
+    search_indexed:
+    search_group:
+  display:
+    display_label:   
+    display_group:
+    display_order:
+    display_suppressed:
+
+"note:funding":
+  usage_note: "Record any source of funding (grants etc.) the data provider thinks is relevant"
+  sample_value: "California Air Resources Board (Agreement No: 13-330)"
+  controlled_values: 
+    vocabularies: 
+      uri: 
+      authority:
+      sub-authority:
+    list:     
+  validations: 
+    cardinality:
+  facet: 
+    faceted: false
+    facet_group:
+  search:
+    search_indexed:
+    search_group:
+  display:
+    display_label:   
+    display_group:
+    display_order:
+    display_suppressed:
+
+"note:note":
+  usage_note: "These are repeatable and can be formatted to have prefixes or hacky \"headers\". But, be advised that multiple general notes will be concatenated into one block of text with a header of \"Note\" in the UI"
+  sample_value: "Title derived from original collection inventory."
+  controlled_values: 
+    vocabularies: 
+      uri: 
+      authority:
+      sub-authority:
+    list:     
+  validations: 
+    cardinality:
+  facet: 
+    faceted: false
+    facet_group:
+  search:
+    search_indexed:
+    search_group:
+  display:
+    display_label: "Note"   
+    display_group:
+    display_order:
+    display_suppressed:
+
+"note:inscription":
+  usage_note: "Record exactly as inscribed on the object"
+  sample_value: "Mrs. D.J. Chase 613 Belden St. Peekskill New York"
+  controlled_values: 
+    vocabularies: 
+      uri: 
+      authority:
+      sub-authority:
+    list:     
+  validations: 
+    cardinality:
+  facet: 
+    faceted: false
+    facet_group:
+  search:
+    search_indexed:
+    search_group:
+  display:
+    display_label:   
+    display_group:
+    display_order:
+    display_suppressed:
+
+"note:material details:limits":
+  usage_note: "This will normally be taken from a data provider or researcher who is noting aspects of the physical thing that the resource represents"
+  sample_value: "Installation walls, W-L14."
+  controlled_values: 
+    vocabularies: 
+      uri: 
+      authority:
+      sub-authority:
+    list:     
+  validations: 
+    cardinality:
+  facet: 
+    faceted: false
+    facet_group:
+  search:
+    search_indexed:
+    search_group:
+  display:
+    display_label:   
+    display_group:
+    display_order:
+    display_suppressed:
+
+"note:local attribution":
+  usage_note: "Is selected at time of ingest from 3 controlled values: DLDP, RDCP, and SCA."
+  sample_value: "Digital Object Made Available By: Special Collections & Archives, UC San Diego, La Jolla, 92093-0175 (http://libraries.ucsd.edu/collections/sca/)"
+  controlled_values: 
+    vocabularies: 
+      uri: 
+      authority:
+      sub-authority:
+    list:     
+  validations: 
+    cardinality:
+  facet: 
+    faceted: false
+    facet_group:
+  search:
+    search_indexed:
+    search_group:
+  display:
+    display_label: "Digital Object Made Available By"   
+    display_group:
+    display_order:
+    display_suppressed:
+
+"note:location of originals":
+  usage_note: "Physical location and arrangement of the original/archival resources "
+  sample_value: "This digital image is a surrogate of an item from the Leo Szilard Papers (MSS 32, Box 18, Folder 30)."
+  controlled_values: 
+    vocabularies: 
+      uri: 
+      authority:
+      sub-authority:
+    list:     
+  validations: 
+    cardinality:
+  facet: 
+    faceted: false
+    facet_group:
+  search:
+    search_indexed:
+    search_group:
+  display:
+    display_label:   
+    display_group:
+    display_order:
+    display_suppressed:
+
+"note:material details":
+  usage_note: "Record aspects about the physical object being represented that aren't strictly physical dimensions/measurements"
+  sample_value: "Reel was in poor condition, side 2 could not be salvaged"
+  controlled_values: 
+    vocabularies: 
+      uri: 
+      authority:
+      sub-authority:
+    list:     
+  validations: 
+    cardinality:
+  facet: 
+    faceted: false
+    facet_group:
+  search:
+    search_indexed:
+    search_group:
+  display:
+    display_label:   
+    display_group:
+    display_order:
+    display_suppressed:
+
+"note:methods":
+  usage_note: "Use for when a collection was produced using certain scientific methodology"
+  sample_value: "Acoustic backscattering data were collected between stations using a hull-mounted Simrad EK60 split-beam echo sounder"
+  controlled_values: 
+    vocabularies: 
+      uri: 
+      authority:
+      sub-authority:
+    list:     
+  validations: 
+    cardinality:
+  facet: 
+    faceted: false
+    facet_group:
+  search:
+    search_indexed:
+    search_group:
+  display:
+    display_label: "Methods"   
+    display_group:
+    display_order:
+    display_suppressed:
+
+"note:performer":
+  usage_note: "If possible, record the performer(s) name as well as their role in the performace (e.g. violin)"
+  sample_value: "Janos Negyesy, violin ; Aleck Karis, piano"
+  controlled_values: 
+    vocabularies: 
+      uri: 
+      authority:
+      sub-authority:
+    list:     
+  validations: 
+    cardinality:
+  facet: 
+    faceted:
+    facet_group:
+  search:
+    search_indexed:
+    search_group:
+  display:
+    display_label:   
+    display_group:
+    display_order:
+    display_suppressed:
+
+"note:physical description":
+  usage_note: "Record physical dimensions/measurements of the object represented"
+  sample_value: "1 sound tape reel : analog, 7 1/2 ips 5 in., 1/2 in. tape"
+  controlled_values: 
+    vocabularies: 
+      uri: 
+      authority:
+      sub-authority:
+    list:     
+  validations: 
+    cardinality:
+  facet: 
+    faceted: false
+    facet_group:
+  search:
+    search_indexed:
+    search_group:
+  display:
+    display_label:   
+    display_group:
+    display_order:
+    display_suppressed:
+
+"note:preferred citation":
+  usage_note: "Record a citation for the user in order for them to cite the resource at hand. Although there is no required format, it should adhere to general citation guidelines for internet resources, and use full/valid URLs when possible"
+  sample_value: "Keen, Eric M; Wray, Janie; Meuter, Hermann; Thompson, Kim-Ly; Barlow, Jay P; Picard, Chris R (2017): Data from: 'Whale Wave': shifting strategies structure the complex use of critical fjord habitat by humpbacks. UC San Diego Library Digital Collections. http://doi.org/10.6075/J0GT5K3B"
+  controlled_values: 
+    vocabularies: 
+      uri: 
+      authority:
+      sub-authority:
+    list:     
+  validations: 
+    cardinality:
+  facet: 
+    faceted: false
+    facet_group:
+  search:
+    search_indexed:
+    search_group:
+  display:
+    display_label: "Cite This Work"   
+    display_group:
+    display_order:
+    display_suppressed:
+
+"note:publication":
+  usage_note: "This is a place for the uncontrolled \"place\", entity, etc. for a publisher. If the exact entity is known, use the more controlled agent:publisher"
+  sample_value: "Shanghai: Shanghai ren min mei shu chu ban she (上海: 上海人民美术出版社)"
+  controlled_values: 
+    vocabularies: 
+      uri: 
+      authority:
+      sub-authority:
+    list:     
+  validations: 
+    cardinality:
+  facet: 
+    faceted: false
+    facet_group:
+  search:
+    search_indexed:
+    search_group:
+  display:
+    display_label:   
+    display_group:
+    display_order:
+    display_suppressed:
+
+"note:related publications":
+  usage_note: "Use a full citation to a publication (e.g. journal article) related to the object, and a DOI link if available"
+  sample_value: "Bushong EA, Martone ME, Ellisman MH (2004). Maturation of astrocyte morphology and the establishment of astrocyte domains during postnatal hippocampal development. Int J Dev Neurosci, 22(2):73-86. doi: 10.1016/j.ijdevneu.2003.12.008 PMID: 15036382"
+  controlled_values: 
+    vocabularies: 
+      uri: 
+      authority:
+      sub-authority:
+    list:     
+  validations: 
+    cardinality:
+  facet: 
+    faceted: false
+    facet_group:
+  search:
+    search_indexed:
+    search_group:
+  display:
+    display_label:   
+    display_group:
+    display_order:
+    display_suppressed:
+
+"note:material details:relationship to other loci":
+  usage_note: "Typically contains information about the locus immediately above, as well as the locus immediately below. Can also denote if it is equivalent to another locus."
+  sample_value: "Matrix above: 19826 Matrix below: 19823 Equal to: 19824"
+  controlled_values: 
+    vocabularies: 
+      uri: 
+      authority:
+      sub-authority:
+    list:     
+  validations: 
+    cardinality:
+  facet: 
+    faceted: false
+    facet_group:
+  search:
+    search_indexed:
+    search_group:
+  display:
+    display_label:   
+    display_group:
+    display_order:
+    display_suppressed:
+
+"note:scope and content":
+  usage_note: "Typically this is broader of a note than arrangement, and contains information about scope and content in a general sense. To describe how a file or directory is strucured, for instance, an arrangement note is more appropriate"
+  sample_value: "The dataMares Collection contains a selection of datasets associated with scientific research, some of which is featured at http://datamares.ucsd.edu. "
+  controlled_values: 
+    vocabularies: 
+      uri: 
+      authority:
+      sub-authority:
+    list:     
+  validations: 
+    cardinality:
+  facet: 
+    faceted: false
+    facet_group:
+  search:
+    search_indexed:
+    search_group:
+  display:
+    display_label: "Scope and Content"   
+    display_group:
+    display_order:
+    display_suppressed:
+
+"note:statement of responsibility":
+  usage_note: "For most cases, this information will be taken from the source data, i.e. MARC data. Usually this information is transcribed: to credit people involved in the creation of a resource beyond transcribed information, use note:credits"
+  sample_value: "Gary Snyder ; preface by Nathaniel Tarn ; edited by Donald Allen."
+  controlled_values: 
+    vocabularies: 
+      uri: 
+      authority:
+      sub-authority:
+    list:     
+  validations: 
+    cardinality:
+  facet: 
+    faceted: false
+    facet_group:
+  search:
+    search_indexed:
+    search_group:
+  display:
+    display_label:   
+    display_group:
+    display_order:
+    display_suppressed:
+
+"note:material details:storage method":
+  usage_note: "This will normally be taken from a data provider or researcher who is noting aspects of the physical thing that the resource represents"
+  sample_value: "room temperature, dry"
+  controlled_values: 
+    vocabularies: 
+      uri: 
+      authority:
+      sub-authority:
+    list:     
+  validations: 
+    cardinality:
+  facet: 
+    faceted: false
+    facet_group:
+  search:
+    search_indexed:
+    search_group:
+  display:
+    display_label:   
+    display_group:
+    display_order:
+    display_suppressed:
+
+"note:series":
+  usage_note: "Although this information is uncontrolled, care should be taken to ensure this information is correct. The controlled series name is recorded in subject:series"
+  sample_value: "Volume 6, Issue 10"
+  controlled_values: 
+    vocabularies: 
+      uri: 
+      authority:
+      sub-authority:
+    list:     
+  validations: 
+    cardinality:
+  facet: 
+    faceted:
+    facet_group:
+  search:
+    search_indexed:
+    search_group:
+  display:
+    display_label:   
+    display_group:
+    display_order:
+    display_suppressed:
+
+"note:technical details":
+  usage_note: "Use to record technical aspects or requirements for the resource"
+  sample_value: "R routines were run in R 3.1.2 "
+  controlled_values: 
+    vocabularies: 
+      uri: 
+      authority:
+      sub-authority:
+    list:     
+  validations: 
+    cardinality:
+  facet: 
+    faceted: false
+    facet_group:
+  search:
+    search_indexed:
+    search_group:
+  display:
+    display_label:   
+    display_group:
+    display_order:
+    display_suppressed:
+
+"note:venue":
+  usage_note: "Typically this records the place at which the resource was performed (usually an event). For a more controlled place/location, use subject:spatial"
+  sample_value: "Antin's poetry reading was recorded at Dr. Generosity's. Stark's reading was recorded at Ikon"
+  controlled_values: 
+    vocabularies: 
+      uri: 
+      authority:
+      sub-authority:
+    list:     
+  validations: 
+    cardinality:
+  facet: 
+    faceted: false
+    facet_group:
+  search:
+    search_indexed:
+    search_group:
+  display:
+    display_label:   
+    display_group:
+    display_order:
+    display_suppressed:
+
+"note:work featured":
+  usage_note: "Use a controlled form of the creator's name (including dates if part of the controlled name), and the controlled form of the work's name."
+  sample_value: "Grapes of wrath (Steinbeck, John)"
+  controlled_values: 
+    vocabularies: 
+      uri: 
+      authority:
+      sub-authority:
+    list:     
+  validations: 
+    cardinality:
+  facet: 
+    faceted: false
+    facet_group:
+  search:
+    search_indexed:
+    search_group:
+  display:
+    display_label:   
+    display_group:
+    display_order:
+    display_suppressed:
+
+"note:material details:water depth":
+  usage_note: "This will normally be taken from a data provider or researcher who is noting aspects of the physical thing that the resource represents"
+  sample_value: "1570-1425 meters"
+  controlled_values: 
+    vocabularies: 
+      uri: 
+      authority:
+      sub-authority:
+    list:     
+  validations: 
+    cardinality:
+  facet: 
+    faceted: false
+    facet_group:
+  search:
+    search_indexed:
+    search_group:
+  display:
+    display_label:   
+    display_group:
+    display_order:
+    display_suppressed:
+
+"identifier":
+  usage_note: "Use a more specific identifier type if possible. If the identifier does not need to be displayed and/or makes no sense from a user perspectice, use identifier:local"
+  sample_value: "c104"
+  controlled_values: 
+    vocabularies: 
+      uri: 
+      authority:
+      sub-authority:
+    list:     
+  validations: 
+    cardinality:
+  facet: 
+    faceted: false
+    facet_group:
+  search:
+    search_indexed:
+    search_group:
+  display:
+    display_label:   
+    display_group:
+    display_order:
+    display_suppressed:
+
+"identifier:accession":
+  usage_note: "Only use when the original accession numbers are important (e.g. for collection maintenance)"
+  sample_value: "40822459663"
+  controlled_values: 
+    vocabularies: 
+      uri: 
+      authority:
+      sub-authority:
+    list:     
+  validations: 
+    cardinality:
+  facet: 
+    faceted: false
+    facet_group:
+  search:
+    search_indexed:
+    search_group:
+  display:
+    display_label:   
+    display_group:
+    display_order:
+    display_suppressed:
+
+"identifier:ark":
+  usage_note: "If pointing to a related DAMS object, use related resource instead"
+  sample_value: "bb1234567x"
+  controlled_values: 
+    vocabularies: 
+      uri: 
+      authority:
+      sub-authority:
+    list:     
+  validations: 
+    cardinality:
+  facet: 
+    faceted: false
+    facet_group:
+  search:
+    search_indexed:
+    search_group:
+  display:
+    display_label:   
+    display_group:
+    display_order:
+    display_suppressed: true
+
+"identifier:basket number":
+  usage_note: "Use basket IDs as supplied by data provider"
+  sample_value: "w09b0630"
+  controlled_values: 
+    vocabularies: 
+      uri: 
+      authority:
+      sub-authority:
+    list:     
+  validations: 
+    cardinality:
+  facet: 
+    faceted: false
+    facet_group:
+  search:
+    search_indexed:
+    search_group:
+  display:
+    display_label:   
+    display_group:
+    display_order:
+    display_suppressed:
+
+"identifier:call number":
+  usage_note: "Only use when the original call numbers are important, e.g. for collection management purposes"
+  sample_value: "10.1000/182"
+  controlled_values: 
+    vocabularies: 
+      uri: 
+      authority:
+      sub-authority:
+    list:     
+  validations: 
+    cardinality:
+  facet: 
+    faceted: false
+    facet_group:
+  search:
+    search_indexed:
+    search_group:
+  display:
+    display_label:   
+    display_group:
+    display_order:
+    display_suppressed: true
+
+"identifier:collection number":
+  usage_note:
+  sample_value: "3558"
+  controlled_values: 
+    vocabularies: 
+      uri: 
+      authority:
+      sub-authority:
+    list:     
+  validations: 
+    cardinality:
+  facet: 
+    faceted: false
+    facet_group:
+  search:
+    search_indexed:
+    search_group:
+  display:
+    display_label:   
+    display_group:
+    display_order:
+    display_suppressed: true
+
+"identifier:doi":
+  usage_note: "Do not use this identifier if already specified in a preferred citation"
+  sample_value: "19671209__01"
+  controlled_values: 
+    vocabularies: 
+      uri: 
+      authority:
+      sub-authority:
+    list:     
+  validations: 
+    cardinality:
+  facet: 
+    faceted: false
+    facet_group:
+  search:
+    search_indexed:
+    search_group:
+  display:
+    display_label:   
+    display_group:
+    display_order:
+    display_suppressed:
+
+"identifier:edm":
+  usage_note: "Use EDM IDs as supplied by data provider (only occurs in archaeological projects)"
+  sample_value: "SIO001505"
+  controlled_values: 
+    vocabularies: 
+      uri: 
+      authority:
+      sub-authority:
+    list:     
+  validations: 
+    cardinality:
+  facet: 
+    faceted: false
+    facet_group:
+  search:
+    search_indexed:
+    search_group:
+  display:
+    display_label:   
+    display_group:
+    display_order:
+    display_suppressed:
+
+"identifier:event number":
+  usage_note: "The source data should contain the event IDs for objects. They are used to group objects from the same event (e.g. a day of concerts) into one grouping"
+  sample_value: "A 188"
+  controlled_values: 
+    vocabularies: 
+      uri: 
+      authority:
+      sub-authority:
+    list:     
+  validations: 
+    cardinality:
+  facet: 
+    faceted: false
+    facet_group:
+  search:
+    search_indexed:
+    search_group: "Canned search created for event numbers"
+  display:
+    display_label:   
+    display_group:
+    display_order:
+    display_suppressed:
+
+"identifier:file name":
+  usage_note: "Only use when the original filenames are important and have been altered"
+  sample_value: "19600122"
+  controlled_values: 
+    vocabularies: 
+      uri: 
+      authority:
+      sub-authority:
+    list:     
+  validations: 
+    cardinality:
+  facet: 
+    faceted: false
+    facet_group:
+  search:
+    search_indexed:
+    search_group:
+  display:
+    display_label:   
+    display_group:
+    display_order:
+    display_suppressed: true
+
+"identifier:igsn":
+  usage_note: "Use IGSN IDs as supplied by data provider"
+  sample_value: "580"
+  controlled_values: 
+    vocabularies: 
+      uri: 
+      authority:
+      sub-authority:
+    list:     
+  validations: 
+    cardinality:
+  facet: 
+    faceted: false
+    facet_group:
+  search:
+    search_indexed:
+    search_group:
+  display:
+    display_label:   
+    display_group:
+    display_order:
+    display_suppressed:
+
+"identifier:local":
+  usage_note: "As a local identifier does not publically display, use only in cases where the identifier is necessary for administrative / collection management purposes"
+  sample_value: "7TOW04WT-036D"
+  controlled_values: 
+    vocabularies: 
+      uri: 
+      authority:
+      sub-authority:
+    list:     
+  validations: 
+    cardinality:
+  facet: 
+    faceted: false
+    facet_group:
+  search:
+    search_indexed:
+    search_group:
+  display:
+    display_label:   
+    display_group:
+    display_order:
+    display_suppressed: true
+
+"identifier:locus number":
+  usage_note: "Use locus IDs as supplied by data provider"
+  sample_value: "/20775/bb1234567x"
+  controlled_values: 
+    vocabularies: 
+      uri: 
+      authority:
+      sub-authority:
+    list:     
+  validations: 
+    cardinality:
+  facet: 
+    faceted: false
+    facet_group:
+  search:
+    search_indexed:
+    search_group:
+  display:
+    display_label:   
+    display_group:
+    display_order:
+    display_suppressed:
+
+"identifier:negative":
+  usage_note: "Only use when the original negative print IDs are important (e.g. essential for collection management)"
+  sample_value: "FVLF-0052"
+  controlled_values: 
+    vocabularies: 
+      uri: 
+      authority:
+      sub-authority:
+    list:     
+  validations: 
+    cardinality:
+  facet: 
+    faceted: false
+    facet_group:
+  search:
+    search_indexed:
+    search_group:
+  display:
+    display_label:   
+    display_group:
+    display_order:
+    display_suppressed: true
+
+"identifier:news release number":
+  usage_note: "Use news release IDs as supplied by data provider"
+  sample_value: "007-014"
+  controlled_values: 
+    vocabularies: 
+      uri: 
+      authority:
+      sub-authority:
+    list:     
+  validations: 
+    cardinality:
+  facet: 
+    faceted: false
+    facet_group:
+  search:
+    search_indexed:
+    search_group:
+  display:
+    display_label:   
+    display_group:
+    display_order:
+    display_suppressed:
+
+"identifier:oclc number":
+  usage_note: "Only use when the OCLC numbers are important, e.g. for collection management purposes"
+  sample_value: "caljsioa_ac608550030"
+  controlled_values: 
+    vocabularies: 
+      uri: 
+      authority:
+      sub-authority:
+    list:     
+  validations: 
+    cardinality:
+  facet: 
+    faceted: false
+    facet_group:
+  search:
+    search_indexed:
+    search_group:
+  display:
+    display_label:   
+    display_group:
+    display_order:
+    display_suppressed: true
+
+"identifier:registration number":
+  usage_note:
+  sample_value: "24631790"
+  controlled_values: 
+    vocabularies: 
+      uri: 
+      authority:
+      sub-authority:
+    list:     
+  validations: 
+    cardinality:
+  facet: 
+    faceted: false
+    facet_group:
+  search:
+    search_indexed:
+    search_group:
+  display:
+    display_label:   
+    display_group:
+    display_order:
+    display_suppressed:
+
+"identifier:catalog record":
+  usage_note: "Only indicate the \"bib\" number. Do not include any hyperlink-specific IDs and suffixes, e.g. \"~9\""
+  sample_value: "b33478636"
+  controlled_values: 
+    vocabularies: 
+      uri: 
+      authority:
+      sub-authority:
+    list:     
+  validations: 
+    cardinality:
+  facet: 
+    faceted: false
+    facet_group:
+  search:
+    search_indexed:
+    search_group:
+  display:
+    display_label:   
+    display_group:
+    display_order:
+    display_suppressed: true
+
+"identifier:sample number":
+  usage_note: "Use sample IDs as supplied by data provider"
+  sample_value: "256"
+  controlled_values: 
+    vocabularies: 
+      uri: 
+      authority:
+      sub-authority:
+    list:     
+  validations: 
+    cardinality:
+  facet: 
+    faceted: false
+    facet_group:
+  search:
+    search_indexed:
+    search_group:
+  display:
+    display_label:   
+    display_group:
+    display_order:
+    display_suppressed:
+
+"identifier:sequence":
+  usage_note: "Use sequence IDs as supplied by data provider"
+  sample_value: "41"
+  controlled_values: 
+    vocabularies: 
+      uri: 
+      authority:
+      sub-authority:
+    list:     
+  validations: 
+    cardinality:
+  facet: 
+    faceted: false
+    facet_group:
+  search:
+    search_indexed:
+    search_group:
+  display:
+    display_label:   
+    display_group:
+    display_order:
+    display_suppressed: true
+
+"identifier:shared shelf":
+  usage_note: "Use for resources that have explicit IDs in Shared Shelf"
+  sample_value: "24953"
+  controlled_values: 
+    vocabularies: 
+      uri: 
+      authority:
+      sub-authority:
+    list:     
+  validations: 
+    cardinality:
+  facet: 
+    faceted: false
+    facet_group:
+  search:
+    search_indexed:
+    search_group:
+  display:
+    display_label:   
+    display_group:
+    display_order:
+    display_suppressed: true
+
+"language":
+  usage_note: "Resources can have multiple languages represented. It is not necessary to record the language of non-texual or non-audiovisual content."
+  sample_value: "eng"
+  controlled_values: 
+    vocabularies: 
+      uri: "http://id.loc.gov/vocabulary/iso639-2"
+      authority:
+      sub-authority:
+    list:      
+  validations: 
+    cardinality:
+  facet: 
+    faceted: "true?"
+    facet_group:
+  search:
+    search_indexed:
+    search_group:
+  display:
+    display_label:   
+    display_group:
+    display_order:
+    display_suppressed:
+
+"related resource":
+  usage_note: "For web resources, provide a label as close to the title of the web site as possible. Otherwise, provide a helpful label that conveys context on how the resource is related"
+  sample_value: "Baja California and the West Postcard Collection @{type=online finding aid; uri=http://roger.ucsd.edu/record=b3528703~S9}"
+  controlled_values: 
+    vocabularies: 
+      uri: 
+      authority:
+      sub-authority:
+    list:     
+  validations: 
+    cardinality:
+  facet: 
+    faceted: false
+    facet_group:
+  search:
+    search_indexed:
+    search_group:
+  display:
+    display_label:   
+    display_group:
+    display_order:
+    display_suppressed:
+
+"subject:topic":
+  usage_note: "For sources of information that are genres (e.g. FAST genres), record them as topics."
+  sample_value: "American poetry"
+  controlled_values: 
+    vocabularies: 
+      uri: 
+      authority:
+      sub-authority:
+    list:     
+  validations: 
+    cardinality:
+  facet: 
+    faceted: true
+    facet_group: "Topic"
+  search:
+    search_indexed:
+    search_group:
+  display:
+    display_label:   
+    display_group:
+    display_order:
+    display_suppressed:
+
+"subject:anatomy":
+  usage_note: "Use for resources that are about a certain part of anatomy"
+  sample_value: "Protoplasmic astrocyte"
+  controlled_values: 
+    vocabularies: 
+      uri: 
+      authority:
+      sub-authority:
+    list:     
+  validations: 
+    cardinality:
+  facet: 
+    faceted: true
+    facet_group: "Anatomy"
+  search:
+    search_indexed:
+    search_group:
+  display:
+    display_label:   
+    display_group:
+    display_order:
+    display_suppressed:
+
+"subject:cruise":
+  usage_note: "As much as possible, use a controlled form of the cruise / ship / expedition"
+  sample_value:
+  controlled_values: 
+    vocabularies: 
+      uri: 
+      authority:
+      sub-authority:
+    list:     
+  validations: 
+    cardinality:
+  facet: 
+    faceted: true
+    facet_group: "Cruise"
+  search:
+    search_indexed:
+    search_group:
+  display:
+    display_label:   
+    display_group:
+    display_order:
+    display_suppressed:
+
+"subject:cultural context":
+  usage_note: "As much as possible, use a controlled form of the cultural context, using vocabularies like Getty AAT"
+  sample_value: "Egyptian (ancient)"
+  controlled_values: 
+    vocabularies: 
+      uri: 
+      authority:
+      sub-authority:
+    list:     
+  validations: 
+    cardinality:
+  facet: 
+    faceted: true
+    facet_group: "Cultural Context"
+  search:
+    search_indexed:
+    search_group:
+  display:
+    display_label:   
+    display_group:
+    display_order:
+    display_suppressed:
+
+"subject:genre form":
+  usage_note: "DMPS decided to not encode a difference between genre and topic, the D4 to D5 migration will need to account for the mapping"
+  sample_value:
+  controlled_values: 
+    vocabularies: 
+      uri: 
+      authority:
+      sub-authority:
+    list:     
+  validations: 
+    cardinality:
+  facet: 
+    faceted: true
+    facet_group: "Topic"
+  search:
+    search_indexed:
+    search_group:
+  display:
+    display_label:   
+    display_group:
+    display_order:
+    display_suppressed:
+
+"subject:lithology":
+  usage_note: "Typically, an archaeological collection will provide these somewhat controlled terms"
+  sample_value: "terrigenous"
+  controlled_values: 
+    vocabularies: 
+      uri: 
+      authority:
+      sub-authority:
+    list:     
+  validations: 
+    cardinality:
+  facet: 
+    faceted: true
+    facet_group: "Lithology"
+  search:
+    search_indexed:
+    search_group:
+  display:
+    display_label:   
+    display_group:
+    display_order:
+    display_suppressed:
+
+"subject:name":
+  usage_note: "Ensure that if a name occurs more than once in a collection, it appears in the exact same form to avoid creation of duplicate authority records"
+  sample_value: "Einstein, Albert, 1879-1955"
+  controlled_values: 
+    vocabularies: 
+      uri: 
+      authority:
+      sub-authority:
+    list:     
+  validations: 
+    cardinality:
+  facet: 
+    faceted: true
+    facet_group: "Topic"
+  search:
+    search_indexed:
+    search_group:
+  display:
+    display_label:   
+    display_group:
+    display_order:
+    display_suppressed:
+
+"subject:scientific name":
+  usage_note: "This only applies to the species (and equivalent) level of classification, and certainly not higher orders of classification, i.e. not group, family, etc."
+  sample_value: "Rattus norvegicus"
+  controlled_values: 
+    vocabularies: 
+      uri: 
+      authority:
+      sub-authority:
+    list:     
+  validations: 
+    cardinality:
+  facet: 
+    faceted: true
+    facet_group: "Scientific Name"
+  search:
+    search_indexed:
+    search_group:
+  display:
+    display_label:   
+    display_group:
+    display_order:
+    display_suppressed:
+
+"subject:series":
+  usage_note: "Use the controlled form of the series name if adding to an existing series. If creating a new series, ensure all object have the same series name"
+  sample_value: "Experiment title: Intracellular injection of an astrocyte"
+  controlled_values: 
+    vocabularies: 
+      uri: 
+      authority:
+      sub-authority:
+    list:     
+  validations: 
+    cardinality:
+  facet: 
+    faceted: true
+    facet_group: "Topic?"
+  search:
+    search_indexed:
+    search_group:
+  display:
+    display_label:   
+    display_group:
+    display_order:
+    display_suppressed:
+
+"title":
+  usage_note: "Preferrably, make the titles of resources unique within a collection. However, there is no hard rule against duplicate object titles"
+  sample_value: "Sun God: decorated as Rambird, 1986: front view"
+  controlled_values: 
+    vocabularies: 
+      uri: 
+      authority:
+      sub-authority:
+    list:     
+  validations: 
+    cardinality:
+  facet: 
+    faceted: false
+    facet_group:
+  search:
+    search_indexed:
+    search_group:
+  display:
+    display_label:   
+    display_group:
+    display_order:
+    display_suppressed:
+
+"title:alternative":
+  usage_note: "For alternate transcribed titles, it may be more appropriate to record that in the statement of responsibility, depending on the source data"
+  sample_value: "Rambird, 1986"
+  controlled_values: 
+    vocabularies: 
+      uri: 
+      authority:
+      sub-authority:
+    list:     
+  validations: 
+    cardinality:
+  facet: 
+    faceted: false
+    facet_group:
+  search:
+    search_indexed:
+    search_group:
+  display:
+    display_label:   
+    display_group: 
+      - "?"
+    display_order:
+    display_suppressed:
+
+"title:part name":
+  usage_note: "Use a string that designates the part name"
+  sample_value:
+  controlled_values: 
+    vocabularies: 
+      uri: 
+      authority:
+      sub-authority:
+    list:     
+  validations: 
+    cardinality:
+  facet: 
+    faceted: false
+    facet_group:
+  search:
+    search_indexed:
+    search_group:
+  display:
+    display_label:   
+    display_group:
+    display_order:
+    display_suppressed:
+
+"title:part number":
+  usage_note: "Use a string that designates the part number"
+  sample_value:
+  controlled_values: 
+    vocabularies: 
+      uri: 
+      authority:
+      sub-authority:
+    list:     
+  validations: 
+    cardinality:
+  facet: 
+    faceted: false
+    facet_group:
+  search:
+    search_indexed:
+    search_group:
+  display:
+    display_label:   
+    display_group:
+    display_order:
+    display_suppressed:
+
+"title:subtitle":
+  usage_note: "Use a string that captures the subtitle"
+  sample_value: "front view"
+  controlled_values: 
+    vocabularies: 
+      uri: 
+      authority:
+      sub-authority:
+    list:     
+  validations: 
+    cardinality:
+  facet: 
+    faceted: false
+    facet_group:
+  search:
+    search_indexed:
+    search_group:
+  display:
+    display_label:   
+    display_group:
+    display_order:
+    display_suppressed:
+
+"type of resource":
+  usage_note: "Emphasis is placed on the nature of the resource, not the strict digital form. For instance, although a file may technically be a binary object, its nature is might be as text."
+  sample_value: "Still Image"
+  controlled_values: 
+    vocabularies: 
+      uri: "http://id.loc.gov/vocabulary/resourceTypes"
+      authority:
+      sub-authority:
+    list:      
+  validations: 
+    cardinality:
+  facet: 
+    faceted: true
+    facet_group: "Format"
+  search:
+    search_indexed:
+    search_group:
+  display:
+    display_label:   
+    display_group:
+    display_order:
+    display_suppressed:
+
+"copyright status":
+  usage_note: "Selected from controlled values: Under copyright, Public domain, or Unknown. Generates boilerplate text."
+  sample_value: "Under copyright"
+  controlled_values: 
+    vocabularies: 
+      uri: "http://id.loc.gov/vocabulary/preservation/copyrightStatus"
+      authority:
+      sub-authority:
+    list:   
+  validations: 
+    cardinality:
+  facet: 
+    faceted: false
+    facet_group:
+  search:
+    search_indexed:
+    search_group:
+  display:
+    display_label:   
+    display_group:
+    display_order:
+    display_suppressed:
+
+"rights statement":
+  usage_note: "Use when specific information regarding intellectual property rights, and e.g. information about how permission was sought and obtained to use the resource"
+  sample_value: "Use: This work is available from the UC San Diego Library. This digital copy of the work is intended to support research, teaching, and private study."
+  controlled_values: 
+    vocabularies: 
+      uri: 
+      authority:
+      sub-authority:
+    list:     
+  validations: 
+    cardinality:
+  facet: 
+    faceted: false
+    facet_group:
+  search:
+    search_indexed:
+    search_group:
+  display:
+    display_label:   
+    display_group:
+    display_order:
+    display_suppressed:
+
+"rights note":
+  usage_note:
+  sample_value: "Gypsy's Window, Beyond the End, Homage, A Ring of Changes by Denise Levertov, from COLLECTED EARLIER POEMS 1940-1960, copyright © 1957 by Denise Levertov. Used by permission of New Directions Publishing Corp. "
+  controlled_values: 
+    vocabularies: 
+      uri: 
+      authority:
+      sub-authority:
+    list:     
+  validations: 
+    cardinality:
+  facet: 
+    faceted:
+    facet_group:
+  search:
+    search_indexed:
+    search_group:
+  display:
+    display_label:   
+    display_group:
+    display_order:
+    display_suppressed:
+
+"rights holder":
+  usage_note: "Use a controlled name for the entity. New entities will be created as agent authorities"
+  sample_value: "UC Regents"
+  controlled_values: 
+    vocabularies: 
+      uri: 
+      authority:
+      sub-authority:
+    list:     
+  validations: 
+    cardinality:
+  facet: 
+    faceted: false
+    facet_group:
+  search:
+    search_indexed:
+    search_group:
+  display:
+    display_label:   
+    display_group:
+    display_order:
+    display_suppressed:
+
+"license":
+  usage_note: "It is most often used for RDCP collections, and can be used by the owner to license their software. Licenses must be granted by the owner of the resource"
+  sample_value: "CC-BY"
+  controlled_values: 
+    vocabularies: 
+      uri: 
+      authority:
+      sub-authority:
+    list: 
+      - "http://creativecommons.org/publicdomain/zero/1.0/"
+      - "http://creativecommons.org/licenses/by/4.0/"
+      - "http://creativecommons.org/licenses/by-sa/4.0/"
+      - "http://creativecommons.org/licenses/by-nd/4.0/"
+      - "http://creativecommons.org/licenses/by-nc/4.0/"
+      - "http://creativecommons.org/licenses/by-nc-sa/4.0/"
+      - "http://creativecommons.org/licenses/by-nc-nd/4.0/"
+      - "http://www.apache.org/licenses/LICENSE-2.0"
+      - "https://opensource.org/licenses/BSD-3-Clause"
+      - "https://opensource.org/licenses/MIT"
+      - "https://www.gnu.org/licenses/gpl-3.0.txt"
+  validations: 
+    cardinality:
+  facet: 
+    faceted: false
+    facet_group:
+  search:
+    search_indexed:
+    search_group:
+  display:
+    display_label:   
+    display_group:
+    display_order:
+    display_suppressed:
